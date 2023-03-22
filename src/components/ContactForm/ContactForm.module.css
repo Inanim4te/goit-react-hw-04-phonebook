@@ -1,0 +1,33 @@
+.wrap {
+  padding: 15px;
+  width: 350px;
+  border: 2px solid black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.label:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 2px;
+  width: 170px;
+}
+
+.button {
+  padding: 2px;
+  width: 100px;
+  cursor: pointer;
+}
